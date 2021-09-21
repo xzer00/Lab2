@@ -29,7 +29,7 @@ In 1884, started as American Institute of Electrical Engineers(AIEE)
 
 
 ### Decimal, Binary and Hexadecimal
-Positional notation with binary, makes decimal, and hexadecimal a thing. Without it, you couldn't make a set of 8 ones into 255, with one set of binary, you will always have the first position being 128, left to right it goes down by half by the exponent of two, so 128,64,32,16,8,4,2,1. If I were to make 192 in decimal, it would look like 11000000, or 154 being 10011010. Hexadecimal is about the same, except it is a math algorithm being Base16, where each number is mixed with the alphabet.
+Positional notation with binary, makes decimal, and hexadecimal a thing. Without it, you couldn't make a set of 8 ones into 255, with one set of binary, you will always have the first position being 128, left to right it goes down by half by the exponent of two, so 128,64,32,16,8,4,2,1. If I were to make 192 in decimal, it would look like 11000000, or 154 being 10011010. Hexadecimal is about the same, except it is a math algorithm being Base16, where each number is mixed with the alphabet. If you were to go ahead and reverse engineer something, you can decode it's source if you do it right by viewing its strings, and converting the hexadecimal in the contents, and piecing together what is decoded like a puzzle, and if it is obfuscated, finding what every variable is and deobfuscating what it is displaying. This is how malware is uncovered and tracked by security professionals.
 ### Hexadecimal Color Representation
 
 
