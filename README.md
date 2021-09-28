@@ -19,17 +19,18 @@ We have multiple kinds running from RAM(Random Access Memory), NVRAM(Non-Volatil
 ### ALU and the Control Unit
 Memory tells the Control Unit to tell the ALU(Arithmetic Logic Unit) what the memory wants, like a translator, where the ALU has Input/Output capabilities. It has access to flags to give the ALU/CU to give more details on instructions given to them as they talk back and forth. The bus provides easier and faster maintanence in its operations, it can save registers and has a temporary register in the second input (Bravo) and the instruction register gives the Control Unit what it wants by the RAM, and doesn't need an enable, due to it only talking to the CU. There can also be multiple flags, all of these things are connected for good and fast flow of data, and instruction. It works with bits and depending on the positional notation, is read and data is written as the bits add up and converted.
 ### CPU, Input & Output
-
+Computers do the same four things, they take input, convert it to binary, the memory stores the information, and the CPU calculates the information, and then it outputs to a visual, or physical output.
+input can be a click, touch, light, heat, whatever takes physical input can be used, the CPU uses the memory for instructions on how to output something, its the brain of a computer. 
 ### Logic Gates 
-
+A logic gate has two inputs, and an output, it takes on the binary code from a transistor or another, and takes the binary to read and sees what it is with a circuit and compares it, sending an electircal current of variations depending on the input of binary, and then does what it is supposed to, I know, technology doing what it is supposed to? Crazy right. There are different types of logic gates, AND, OR, OT, XOR, NAND, NOR, the XOR is EXCLUSIVE OR, and NAND is NOT AND, while NOR is NOR OR.
 ### IEEE - Ethically Aligned Design
-In 1884, started as American Institute of Electrical Engineers(AIEE) 
+In 1884, started as American Institute of Electrical Engineers(AIEE), now IEEE (i-triple-ee) and has been going on since telegraphs were still used, and was one of the origins of it. It now is used as an institute for technological standards for electronics. It became IEEE in 1963 when IRE (Institute for Radio Engineers) and AIEE mixed together and is running out of the U.S. And is now running with everything electronic or engineering related.
 
 ## Data Representation
-
+Data is presented by numbers, with Base2 for binary, Base10 for decimal, and Base16 for hexadecimal. There are also Base32, and 64 for encoding things to not be in plain-text.
 
 ### Decimal, Binary and Hexadecimal
-Positional notation with binary, makes decimal, and hexadecimal a thing. Without it, you couldn't make a set of 8 ones into 255, with one set of binary, you will always have the first position being 128, left to right it goes down by half by the exponent of two, so 128,64,32,16,8,4,2,1. If I were to make 192 in decimal, it would look like 11000000, or 154 being 10011010. Hexadecimal is about the same, except it is a math algorithm being Base16, where each number is mixed with the alphabet. If you were to go ahead and reverse engineer something, you can decode it's source if you do it right by viewing its strings, and converting the hexadecimal in the contents, and piecing together what is decoded like a puzzle, and if it is obfuscated, finding what every variable is and deobfuscating what it is displaying. This is how malware is uncovered and tracked by security professionals.
+Positional notation with binary, makes decimal, and hexadecimal a thing. Without it, you couldn't make a set of 8 ones into 255, with one set of binary, you will always have the first position being 128, left to right it goes down by half by the exponent of two, so 128,64,32,16,8,4,2,1. If I were to make **193** in decimal, it would look like **11000001**, or **154 being 10011010**. Hexadecimal is about the same, except it is a math algorithm being Base16, where each number is mixed with the alphabet. If you were to go ahead and reverse engineer something, you can decode it's source if you do it right by viewing its strings, and converting the hexadecimal in the contents, and piecing together what is decoded like a puzzle, and if it is obfuscated, finding what every variable is and deobfuscating what it is displaying. This is how malware is uncovered and tracked by security professionals.
 ### Hexadecimal Color Representation
 
 
